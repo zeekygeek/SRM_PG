@@ -15,7 +15,7 @@ export const pgData = {
     pincode: "560018"
   },
   openHours: "24 Hours",
-  buildingImage: "/images/headPic.jpg",
+  buildingImage: `${import.meta.env.BASE_URL}images/headPic.jpg`,
   
   amenities: [
     {
