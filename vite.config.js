@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? '/SRM_PG/' : '/',
+  base: '/SRM_PG/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
